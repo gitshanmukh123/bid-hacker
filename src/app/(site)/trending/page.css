@@ -1,0 +1,40 @@
+.body {
+  /* background-color: #dce1e1; */
+}
+.jobs {
+  /* background-color: #dce1e1; */
+  /* color: black; */
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 2rem;
+}
+.jobs h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.languages h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+.jobs h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.job-cards {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 80vw;
+}
+.languages {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
